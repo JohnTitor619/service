@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: test-freemarker
+  freemarker:
+    charset: UTF-8
+    #suffix:
+    cache: false
+    settings:
+      template_update_delay: 0 #检查模板更新延迟时间，设置为 0 表示立即检查，如果时间大于 0 会有缓存不方便进行模板测试

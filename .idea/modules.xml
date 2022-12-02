@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/framework-common/framework-common.iml" filepath="$PROJECT_DIR$/framework-common/framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-model/framework-model.iml" filepath="$PROJECT_DIR$/framework-model/framework-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-parent/framework-parent.iml" filepath="$PROJECT_DIR$/framework-parent/framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-utils/framework-utils.iml" filepath="$PROJECT_DIR$/framework-utils/framework-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/service.iml" filepath="$PROJECT_DIR$/.idea/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-api/service-api.iml" filepath="$PROJECT_DIR$/service-api/service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-freemarker/test-freemarker.iml" filepath="$PROJECT_DIR$/test-freemarker/test-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-qiniu/test-qiniu.iml" filepath="$PROJECT_DIR$/test-qiniu/test-qiniu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-service-base-filesystem/yh-service-base-filesystem.iml" filepath="$PROJECT_DIR$/yh-service-base-filesystem/yh-service-base-filesystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-service-manage-cms/yh-service-manage-cms.iml" filepath="$PROJECT_DIR$/yh-service-manage-cms/yh-service-manage-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-service-manage-cms-handler/yh-service-manage-cms-handler.iml" filepath="$PROJECT_DIR$/yh-service-manage-cms-handler/yh-service-manage-cms-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-service-manage-course/yh-service-manage-course.iml" filepath="$PROJECT_DIR$/yh-service-manage-course/yh-service-manage-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-service-search/yh-service-search.iml" filepath="$PROJECT_DIR$/yh-service-search/yh-service-search.iml" />
+    </modules>
+  </component>
+</project>

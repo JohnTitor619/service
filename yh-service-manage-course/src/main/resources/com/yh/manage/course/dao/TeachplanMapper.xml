@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yh.manage.course.dao.TeachplanMapper">
+    <resultMap id="teachPlanResultMap" type="com.lxw.framework.domain.course.ext.TeachplanNode">
+        <id column="firstId" property="id"/>
+        <result column="firstName" property="pname"/>
+        <collection property="children" ofType="com.lxw.framework.domain.course.ext.TeachplanNode">
+            <id column="secondId" property="id"/>
+            <result column="secondName" property="pname"/>
+            <collection property="children" ofType="com.lxw.framework.domain.course.ext.TeachplanNode">
+                <id column="thirdId" property="id"/>
+                <result column="thirdName" property="pname"/>
+            </collection>
+        </collection>
+    </resultMap>
+    <select id="selectList" parameterType="String" resultMap="teachPlanResultMap">
+        SELECT
+            a.id firstId,
+            a.pname firstName,
+            b.id secondId,
+            b.pname secondName,
+            c.id thirdId,
+            c.pname thirdName
+        FROM
+            teachplan a
+                LEFT JOIN teachplan b ON b.parentid = a.id
+                LEFT JOIN teachplan c ON c.parentid = b.id
+        WHERE
+            a.parentid = '0'
+            AND a.courseid = #{courseId}
+    </select>
+</mapper>

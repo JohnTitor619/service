@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test-freemarker" />
+        <module name="test-qiniu" />
+        <module name="framework-utils" />
+        <module name="yh-service-base-filesystem" />
+        <module name="framework-model" />
+        <module name="yh-service-search" />
+        <module name="framework-common" />
+        <module name="yh-service-manage-cms-handler" />
+        <module name="yh-service-manage-course" />
+        <module name="yh-service-manage-cms" />
+        <module name="service-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="framework-common" target="1.8" />
+      <module name="framework-model" target="1.8" />
+      <module name="framework-parent" target="1.8" />
+      <module name="framework-utils" target="1.8" />
+      <module name="service-api" target="1.8" />
+      <module name="test-freemarker" target="8" />
+      <module name="test-qiniu" target="8" />
+      <module name="yh-service-base-filesystem" target="1.8" />
+      <module name="yh-service-manage-cms" target="8" />
+      <module name="yh-service-manage-cms-handler" target="8" />
+      <module name="yh-service-manage-course" target="1.8" />
+      <module name="yh-service-search" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="framework-common" options="-parameters" />
+      <module name="framework-model" options="-parameters" />
+      <module name="framework-utils" options="-parameters" />
+      <module name="service-api" options="-parameters" />
+      <module name="test-freemarker" options="-parameters" />
+      <module name="test-qiniu" options="-parameters" />
+      <module name="yh-service-base-filesystem" options="-parameters" />
+      <module name="yh-service-manage-cms" options="-parameters" />
+      <module name="yh-service-manage-cms-handler" options="-parameters" />
+      <module name="yh-service-manage-course" options="-parameters" />
+      <module name="yh-service-search" options="-parameters" />
+    </option>
+  </component>
+</project>

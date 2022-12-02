@@ -1,0 +1,1 @@
+mongod.exe --dbpath=D:\MongoDB\Server\3.4\data

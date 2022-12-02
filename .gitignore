@@ -1,0 +1,10 @@
+# 项目排除路径
+/framework-model/target/
+/service-api/target/
+/test-freemarker/target/
+/test-qiniu/target/
+/yh-service-base-filesystem/target/
+/yh-service-manage-cms/target/
+/yh-service-manage-cms-handler/target/
+/yh-service-manage-course/target/
+/yh-service-search/target/

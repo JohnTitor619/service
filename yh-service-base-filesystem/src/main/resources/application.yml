@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: yh-service-base-filesystem
+  data:
+    mongodb:
+      database: yh_fs
+      uri: mongodb://root:admin@localhost:27017/
+  servlet:
+    multipart:
+      enabled: true
+      #最大支持文件大小
+      max-file-size: 5MB
+      #最大支持请求大小
+      max-request-size: 30MB
+server:
+  port: 22100
+qiniu:
+  ak: A6xqJusVK04iJOsUg4hYw1XqowKqKZws1AEJtmJG
+  sk: 2zMkGr8zIf2Inz7Qzr1CudjzqyRduiNuYJzPytSY
+  bucket: syq-sps
+  path: http://rk2zhusqb.hb-bkt.clouddn.com/
